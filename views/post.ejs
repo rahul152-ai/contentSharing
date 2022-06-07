@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ShareHere</title>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        .form-control{
+            margin-top: 10px;
+            width: 20%;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <p class="navbar-brand">TitleHere</p>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li id="about"><a>POST</a></li>
+          </ul>
+      </div>
+    </nav>
+    <div class="container">
+       <form action="/post" method="POST">
+           <input type="text" class="form-control" name="heading" placeholder="Enter Title">
+           <input type="file" class="file-upload-input" name="image" onchange="readURL(this)" accept="Image/*">
+           <button type="submit" name="submit" value="submit" class="btn">Upload</button>
+       </form> 
+    </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.navbar-nav li a:hover {
+  color: #0ef3c5 !important;
+}
+body {
+  background-color: rgb(118, 148, 173);
+}
+.description {
+   
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  height: 50vh;
+  border: 1px solid #f5f5f4;
+  border-radius: 2px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.description h1{
+    color: aqua;
+}
+.description p{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn{
+  margin-top: 5px;
+}
+.file-upload-input{
+  margin-top: 10px;
+}
+.searchpost{
+  margin-top: 3px;
+  padding: 6PX 12PX;
+}
